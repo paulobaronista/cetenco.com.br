@@ -1,0 +1,696 @@
+/*   * CSS Reset from Eric Meyers  * http://meyerweb.com/eric/thoughts/2008/01/15/resetting-again/  */  html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {     margin: 0;     padding: 0;     border: 0;     outline: 0;     font-size: 100%;     vertical-align: baseline;     background: transparent; } body {     line-height: 1; } ol, ul {     list-style: none; } blockquote, q {     quotes: none; }  /* remember to define focus styles! */ :focus {     outline: 0; }  /* remember to highlight inserts somehow! */ ins {     text-decoration: none; } del {     text-decoration: line-through; }  /* tables still need 'cellspacing="0"' in the markup */ table {     border-collapse: collapse;     border-spacing: 0; }   /* Added by Shaun for psd2css Online */ p { margin-bottom: 0.5em; }
+
+html, body {
+	height: 100%
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+	font-size: 12px;
+}
+
+.clr {
+	clear: both
+}
+
+a {
+	text-decoration: none
+}
+
+label {
+	line-height: normal
+}
+
+h1, h2, h3, h4, h5{
+	margin-top: 0;
+	font-family: "Arial Black", arial;
+	text-align: center
+}
+
+img {
+    border: none
+}
+
+#wrapper {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto
+}
+
+/* LOGIN FORM */
+
+#login_form {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	height: 190px;
+	margin-top: -95px;
+	width: 280px;
+	margin-left: -140px;
+	background: #efefef;
+	padding: 1em
+}
+
+#login_form form {
+	width: 95.5%
+}
+
+#login_form input[type=text], #login_form input[type=password] {
+	display: block;
+	width: 100%;
+	margin: 0 0 1em 0;
+	border: 5px;
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	padding: .5em
+}
+
+#login_form h1 {
+	font-size: 25px
+}
+
+/* FIM - LOGIN FORM*/
+
+/* HEADER */
+
+/* IE HACK*/
+
+* html #content {
+	height: 1%;
+}
+
+/* FIM - IE HACK*/
+
+#header {
+	height: 100px;
+	background: #fff;
+	position: relative
+}
+
+#header #logo{
+	display: block;
+	float: left;
+	padding: 5px 10px
+}
+
+#header #rightBlock {
+	bottom:0;
+	float:right;
+	position:absolute;
+	right:0;
+	padding-right: 5px
+}
+
+#header h1 {
+	float:left;
+	font-size:2.7em;
+	position:relative;
+	top:42px;
+	line-height: normal
+}
+
+/* FIM - HEADER */
+
+/* CORPO */
+#body {
+	padding: 0 1em;
+	padding-top: 10px;
+	border-top: 1px solid #054689
+}
+
+/* Cabeçalho */
+
+#body h1 {
+	line-height: normal
+}
+
+#body #subHeader {
+	display: block;
+	height: 90px;
+	border-bottom: 2px groove silver;
+	margin-bottom: 10px
+}
+
+#body #subHeaderLeft {
+	float: left
+}
+
+#body #subHeaderRight {
+	float: right
+}
+
+#body #subHeaderLeft img{
+	float: left
+}
+
+#body #subHeaderLeft h1{
+	float:left;
+	font-size:3em;
+	margin-left:10px;
+	margin-top:7px;
+}
+
+#body #subHeaderRight div {
+	float: left;
+}
+
+#body #subHeaderRight a {
+	display: block;
+	margin-right: 10px;
+	padding: 7px;
+	text-align: center
+}
+
+#body #subHeaderRight a:hover {
+	border: 1px outset silver;
+	background: #c5dff9;
+	cursor: pointer;
+	margin-right: 8px;
+}
+
+#body #subHeaderRight img {
+	border: none;
+	margin-bottom: 5px
+}
+
+/* FIM - Cabeçalho */
+
+/* Conteúdo */
+
+#content {
+	position: relative
+}
+
+#content div.notabs{
+	padding: 10px 22px
+}
+
+#content #leftCol {
+	display: block;
+	float: left;
+	width: 49.5%;
+	padding-right: .5%
+}
+
+#content #rightCol {
+	display: block;
+	float: right;
+	width: 49.5%;
+	padding-left: .5%
+}
+
+#content #bottom {
+	clear: both
+}
+
+#content table {
+	font-size: 12px;
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+#content table th {
+	font-size: 14px;
+	font-weight: normal;
+	padding: 10px 8px;
+	color: #039;
+	background: #D1D5E5
+}
+
+#content table td {
+	padding: 8px;
+	color: #669;
+	border: 1px solid white
+}
+
+#content table td:last-child {
+	border-right: none
+}
+
+#content table .odd {
+	background: #e8edff;
+}
+
+#content form label {
+	font-size: 16px;
+    font-weight: bold;
+}
+
+#content form span.spacer {
+	display: inline-block;
+	width: 30px
+}
+
+#content form input, #content form textarea, #content form select, #content form fieldset, #content form fieldset .radios{
+	margin-bottom: 10px
+}
+
+#content form fieldset {
+	border: 1px solid #ccc;
+	padding: 5px
+}
+
+#content form input[type="radio"], #content form input[type="checkbox"] {
+	width: auto;
+}
+
+#content form input, #content form textarea, #content form select {
+	width: 98%
+}
+
+#content form textarea {
+	vertical-align: text-top
+}
+
+#content form input[type="password"] {
+	width: 233px
+}
+
+#content form label[for="senha_check"]{
+	width: 121px;
+}
+
+#content form input[name="email"] {
+	width: 284px
+}
+
+#content form fieldset input {
+	width: 150px;
+}
+
+#content fieldset input{
+	margin-bottom: 0
+}
+
+#content form fieldset .radios {
+	display: inline-block;
+	margin-top: 10px
+}
+
+#content input[type="file"] {
+	height:auto;
+	margin-right:150px;
+}
+
+#content form .button{
+	margin-right: 2px;
+	height: 30px
+}
+
+#content #upload {
+	border: 1px solid #ccc;
+	margin: 10px auto;
+	width: 98.3%;
+	padding: 10px
+}
+
+#content #uploadUploader {
+    float: left
+}
+
+#content #fileQueue {
+	width: 100%;
+	clear: both
+}
+
+#content #fileQueue .uploadifyQueueItem {
+	float: left;
+	margin-right: 5px;
+}
+
+#content #uploadifySwfWrapper {
+	display: inline
+}
+
+#content ul {
+	padding: 0
+}
+
+#content #thumbs, #content #source {
+	width: 100%;
+	clear: both
+}
+
+#content #thumbs li, #content #source li {
+	list-style: none;
+	display: block;
+	float: left;
+	padding: 10px
+}
+
+#content ul.thumbs:after {
+	content: ".";
+	visibility: hidden;
+	display: block;
+	clear: both;
+	height: 0;
+	font-size: 0
+}
+
+#content .thumb {
+	float: left;
+	padding: 10px;
+	margin: 10px;
+	background: #eee
+}
+
+#content .thumb:hover {
+	outline: 1px solid #999
+}
+
+#content div.caption {
+	margin-top: 10px;
+	text-align: center
+}
+
+#content div.caption a, #content div.caption span{
+	display: block;
+    height: 16px
+}
+
+#content div.caption a:hover {
+	text-decoration: underline;
+}
+
+#content div.caption span.featured {
+	background: url("/template/img/tick_16.png") no-repeat scroll 0 0 transparent;
+	line-height: 16px;
+}
+
+#content div.caption a.regular {
+	background: url("/template/img/stop_16.png") no-repeat scroll 0 0 transparent;
+	line-height: 15px
+}
+
+/* Mural de obras */
+
+#mural {
+	width: 821px;
+	height: 293px;
+	top: 20px !important
+}
+
+#mural div {
+	position: relative;
+	float:left;
+	cursor: pointer
+}
+
+/* You named this layer layer1_img */
+#Layer-1, #Layer-12 {
+	height:70px;
+	left:5px;
+	position:absolute;
+	top:77px;
+	width:230px;
+	z-index:1;
+}
+
+/* You named this layer layer2_img */
+#Layer-2, #Layer-13 {
+	height:68px;
+	left:-110px;
+	position:absolute;
+	top:150px;
+	width:115px;
+	z-index:2;
+}
+
+/* You named this layer layer3_img */
+#Layer-3, #Layer-14 {
+	height:140px;
+	left:-107px;
+	position:absolute;
+	top:77px;
+	width:112px;
+	z-index:3;
+}
+
+/* You named this layer layer4_img */
+#Layer-4, #Layer-15 {
+	height:70px;
+	left:-104px;
+	position:absolute;
+	top:77px;
+	width:114px;
+	z-index:4;
+}
+
+/* You named this layer layer5_img */
+#Layer-5, #Layer-16 {
+	height:139px;
+	left:-218px;
+	position:absolute;
+	top:150px;
+	width:114px;
+	z-index:5;
+}
+
+/* You named this layer layer6_img */
+#Layer-6, #Layer-17 {
+	height:142px;
+	left:-215px;
+	position:absolute;
+	top:5px;
+	width:114px;
+	z-index:6;
+}
+
+/* You named this layer layer7_img */
+#Layer-7, #Layer-18 {
+	height:68px;
+	left:470px;
+	position:absolute;
+	top:8px;
+	width:114px;
+	z-index:7;
+}
+
+/* You named this layer layer8_img */
+#Layer-8, #Layer-19 {
+	height:70px;
+	left:473px;
+	position:absolute;
+	top:-137px;
+	width:114px;
+	z-index:8;
+}
+
+/* You named this layer layer9_img */
+#Layer-9, #Layer-20 {
+	height:70px;
+	left:359px;
+	position:absolute;
+	top:-65px;
+	width:114px;
+	z-index:9;
+}
+
+/* You named this layer layer10_img */
+#Layer-10, #Layer-21 {
+	height:68px;
+	left:245px;
+	position:absolute;
+	top:8px;
+	width:114px;
+	z-index:10;
+}
+
+/* You named this layer layer11_img */
+#Layer-11, #Layer-22 {
+	height:70px;
+	left:248px;
+	position:absolute;
+	top:-65px;
+	width:112px;
+	z-index:11;
+}
+
+#dialog-confirm {
+	display: none
+}
+
+/* FIM - Mural de obras */
+
+/* FIM - Conteúdo */
+
+/* FIM - CORPO */
+
+/* jQuery */
+
+.ui-tabs .ui-tabs-hide {
+     display: none !important;
+}
+
+/* MENSAGENS DO SISTEMA */
+
+.system {
+	padding: 0 0 0 19px;
+	white-space: nowrap;
+	font-weight: bold;
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.positive {
+	color: #82a800;
+	background-image:url(../../includes/img/forms/positive.gif);
+}
+
+.negative {
+	color: #b86464;
+	background-image:url(../../includes/img/forms/negative.gif);
+}
+
+.system_messages {
+	margin: 0;
+	padding: 15px 0 0;
+
+}
+
+.system_messages li {
+	list-style:none;
+	margin: 0 0 7px;
+	padding: 6px 0 6px 38px;
+	font-size: 11px;
+	position: relative;
+	top: 0;
+	left: 0;
+	min-height: 1px;
+	list-style-position: outside;
+
+}
+
+.white {
+	background: #fefefe url(../../includes/img/forms/white_message.gif) repeat-x;
+	border: 1px solid #dbdbdb;
+
+
+}
+
+.system_title {
+	font-size: 11px;
+}
+
+.ico {
+	display: block;
+	width: 23px;
+	height: 23px;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	position: absolute;
+	left: 4px;
+	top: 1px;
+
+}
+
+.white .system_title {
+	color: #4f4f4f;
+}
+
+.white .ico {
+	background-image:url(../../includes/img/forms/white_ico.png);
+}
+
+.red {
+	background: #e2c5c5 url(../../includes/img/forms/red_message.gif) repeat-x;
+	border: 1px solid #cf9e9e;
+
+}
+
+.red .system_title {
+	color: #ae2727;
+}
+
+.red .ico {
+	background-image:url(../../includes/img/forms/red_ico.png);
+}
+
+
+
+.blue {
+	background: #c4dde3 url(../../includes/img/forms/blue_message.gif) repeat-x;
+	border: 1px solid #9cc6d0;
+
+}
+
+.blue .system_title {
+	color: #0f4b74;
+}
+
+.blue .ico {
+	background-image:url(../../includes/img/forms/blue_ico.png);
+}
+
+.green {
+	background: #c7e5c2 url(../../includes/img/forms/green_message.gif) repeat-x;
+	border: 1px solid #a2d399;
+
+}
+
+.green .system_title {
+	color: #386d19;
+}
+
+.green .ico {
+	background-image:url(../../includes/img/forms/green_ico.png);
+}
+
+
+.yellow {
+	background: #eae1b1 url(../../includes/img/forms/yellow_message.gif) repeat-x;
+	border: 1px solid #e0d182;
+
+}
+
+.yellow .system_title {
+	color: #675918;
+}
+
+.yellow .ico {
+	background-image:url(../../includes/img/forms/yellow_ico.png);
+}
+
+#observacoes {
+	background-color: #EEEEEE;
+    border: 1px solid #CCCCCC;
+    padding: 5px;
+	margin: 10px 0
+}
+
+#observacoes p {
+	line-height: normal;
+	margin: 0
+}
+
+#radios {
+	float: right;
+	margin-right: 15px;
+}
+
+#radios label {
+	width: auto !important
+}
+
+#file {
+	float: left
+}
+
+#file input[type=file] {
+	margin: 0;
+	width: auto
+}
+
+#aviso {
+	border-bottom: 1px solid #777777;
+    font-size: 20px;
+    margin-top: 20px
+}
+
+.buttons {
+	margin-top: 10px
+}

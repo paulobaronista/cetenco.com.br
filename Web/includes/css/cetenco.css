@@ -1,0 +1,413 @@
+@charset "utf-8";
+
+  /* cetenco . set 2010 . vimello . spicyweb */
+  
+  
+  
+  /* . css resets . */
+  html, body, * { margin: 0; padding: 0; }
+  a img { border: none; }  
+  
+  
+  
+  /* . tipografia . */
+  * { font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif; font-size: 12px; color: #626262; }
+  a { text-decoration: underline; }
+  a:hover { text-decoration: none }
+  a:visited { }
+  
+  
+  /* . estruturas principais . */ 
+  html { background: url(../img/bghtml.jpg) top center repeat-x; }
+  body { background: url(../img/bg.jpg) top center repeat-x; margin: 0; padding: 0; position: relative; }
+  #outter-wrap { width: 955px; display: block; margin: 0 auto; height: auto !important; }
+  #bg { position: absolute; z-index: 1; display: block; width: 955px; height: 100%; overflow: hidden }
+  #wrapper { position: relative; z-index: 2 }
+  #footer { position: relative; width: 872px; display: block; margin: 0; z-index: 2; height: 90px; margin-left: 33px }
+  #top { position: relative; width: 875px; height:210px; display: block; margin: 0 0 0 38px; z-index: 2; background: url(../img/top.jpg) 0 0 no-repeat; font-family: "Trebuchet MS", Arial, Helvetica, sans-serif }
+  #content { position: relative; width: 830px; display: block; margin: 0 0 0 22px; z-index: 2; overflow: hidden; padding: 0 40px; font-family: Verdana, Geneva, sans-serif }
+  #content p { margin-bottom: 15px }
+  .clear { display: block; clear: both; padding-top: 10px }
+  
+  
+  /* . topo . */
+  #top h1 { display: block; float: left; width: 225px; height: 80px; margin: 35px 0 0 45px; _margin-left: 22px; }
+  #top h1 a { text-indent: -999px; display: block; width: 100%; height: 100% }
+  #top h1 a:hover { }
+  #top #tools { float: right; width: 255px; height: 115px; margin: 30px 33px 0 0; _margin-right: 22px; }
+  #tools ul#lang { display: block; height: 33px; width: 70px; margin: 0 0 0; list-style: none; float: right }
+  #tools ul#lang li { width: 21px; height: 33px; float: left; margin-left: 2px; _margin-left: 1px }
+  #tools ul#lang li a { display: block; width: 100%; height: 100%; text-indent: -999px; overflow: hidden }
+  #tools ul#lang li.br a { background: url(../img/lang.jpg) -2px 0 no-repeat }
+  #tools ul#lang li.br a:hover { background-position: -2px -33px }
+  #tools ul#lang li.es a { background: url(../img/lang.jpg) -26px 0 no-repeat }
+  #tools ul#lang li.es a:hover { background-position: -26px -33px }
+  #tools ul#lang li.en a { background: url(../img/lang.jpg) -48px 0 no-repeat }
+  #tools ul#lang li.en a:hover { background-position: -48px -33px }
+  #top p.mapa { text-align: right; display: block; clear: both; padding-top: 5px }
+  #top p.mapa a { color: #fff }
+  #top p.mapa a:hover { text-decoration: underline }  
+  #top form {display: block; clear: both; overflow: hidden; margin-left: 31px; margin-top: 7px; *margin-left: 16px; _margin-left: 33px }
+  #top form .txt { width: 200px; height: 18px; border: 0px none; background: none !important; font-size: 11px; float: left }
+  #top form .btn {width: 24px; height: 18px; float: right; background: url(../img/bg-transparente.gif) repeat; text-indent: -999px; overflow: hidden; cursor: pointer; border: none 0px; line-height: 0px; font-size: 0px !important }
+  #top #menu { clear: both; text-align: center; font-size: 16px; color: #fff; }
+  #top #menu a { font-size: 14px; font-weight: bold; text-decoration: none; color: #fff; }
+  #top #menu a:hover { text-decoration: underline }
+  
+  
+  /* . footer . */
+  #footer { width: 853px; display: block; padding: 10px; background: url(../img/selo.jpg) 30px 30px no-repeat }
+  #footer p#copyright { width: 425px; float: left; margin: 30px 0 0 75px; padding-right: 10px; border-right: 1px solid #c0c0c0; _margin-left: 37px }
+  #footer p#nav { /*width: 300px;*/ float: right; margin-top: 40px; text-align: center; _margin-right: 12px }
+  #footer #assinatura { float: right; margin-top: 40px; padding-right: 3px}
+  
+  /* . home . */
+  #destaque-img { background: url(../img/bg-destaque.jpg) left bottom no-repeat; width: 830px; height: 322px; overflow: hidden }
+  h2#destaque-home { width: 832px; height: 41px; display: block; text-indent: -9999px; overflow: hidden; background: url(../img/historia.jpg) top center no-repeat; margin-top: 20px; margin-bottom: 30px }
+  h2#destaque-home.en {background: url(../img/historia-en.jpg) top center no-repeat !important}
+  h2#destaque-home.es {background: url(../img/historia-es.jpg) top center no-repeat !important}
+  .destaque { width: 830px; height: 310px; display: block; float: left; background: #f0f0f0 }
+  .descricao { float: right; width: 252px; height: 118px; padding-top: 95px; }
+  .descricao h2 { color: #004d9b; font-size: 16px; font-weight: bold; }
+  .legenda { position: absolute; color: #004d9b; font-family: Verdana; line-height: 20px; background: url(../img/bg-legenda.png) repeat; display: block; width: 820px; padding: 3px 0 3px 10px; margin-top: 284px; text-align: left; }
+  .descricao p a { display: block; text-align: right; padding-right: 10px }
+/*  #linhadotempo { width: 100%; height: 165px; background: #f3f3f3 }*/
+  #linhadotempo a { text-decoration: none }
+  
+  /* . páginas internas . */
+  h2.principal { color: #004d9b; font-size: 20px; font-weight: normal; margin: 0 0 20px; clear: both }
+  select#tipo { width: 270px; background: #f3f3f3; border: none 0px }
+  select#obras { width: 270px; background: #f3f3f3; border: none 0px }
+  #realizadas img { padding-bottom: 20px; float: left; background: url(../img/sombra-interna2.jpg) 0 0 no-repeat }
+  #realizadas #infos { float: right; width: 370px; }
+  #realizadas { overflow: hidden; margin-top: 40px; margin-bottom: 30px }
+  #thumbs { margin-bottom: 30px; overflow: hidden }
+  #thumbs ul { list-style: none; margin: 0; padding: 0; }
+  #thumbs ul li { float: left; width: 126px; height: 96px; margin: 10px }
+  #thumbs ul li a { display: block; padding: 2px; border: 1px solid #c0c0c0; background: #fff; height: 86px; width: 120px }
+  ul.formatada {padding-left: 15px}
+    
+  /* . formulários . */
+  .formContato { width: 380px; background: #f2f2f2; border: none 0px; padding: 2px; }
+  form#formulario { width: 400px; float: left; display: block; }
+  select#txtArea { width: 380px; background: #f2f2f2; border: none 0px; padding: 2px;  }
+  input#curriculo { width: 380px; background: #f2f2f2; border: none 0px; padding: 2px; }
+  textarea#txtMensagem { width: 380px; background: #f2f2f2; border: none 0px; padding: 2px; }
+  input.btn { cursor: pointer; }
+  div.endereco { width: 350px; float: right; padding-top: 60px }
+  
+  
+  
+  h3#orealizadas { }
+  
+  .homecol { width: 300px; float: left; margin-right: 20px }
+  .homecol p { color: #00479f; font-size: 15px; margin-top: 10px }
+  .fonehome { width: 190px; float: right;; }
+  .fonehome .container {  background: #fafafa; padding: 10px }
+  .fonehome .container p {  margin-bottom: 7px !important }
+  .fonehome .container a, .fonehome .container strong {color: #00479f}
+  .fonehome .container a {font-weight: 800; text-decoration: none}
+  .fonehome .container a:hover{text-decoration: underline}
+  
+  h3#orealizadas { background: url(../img/header-home.jpg) -7px 0 no-repeat; display: block; text-indent: -999px; overflow: hidden; margin-bottom: 10px; height: 20px; }
+  h3#orealizadas.en {background: url(../img/header-home-en.jpg) -7px 0 no-repeat !important; height: 20px;}
+  h3#orealizadas.es {background: url(../img/header-home-es.jpg) -7px 0 no-repeat !important; height: 20px;}
+  h3#orecentes { background: url(../img/header-home.jpg) -392px 0 no-repeat; display: block; text-indent: -999px; overflow: hidden; margin-bottom: 10px; height: 20px; }
+  h3#orecentes.en { background: url(../img/header-home-en.jpg) -392px 0 no-repeat !important;height: 20px; }
+  h3#orecentes.es { background: url(../img/header-home-es.jpg) -392px 0 no-repeat !important;height: 20px; }
+  h3#fhome { background: url(../img/header-home.jpg) -778px 0 no-repeat; display: block; text-indent: -999px; overflow: hidden; margin-bottom: 10px; height: 20px; }
+  h3#fhome.en { background: url(../img/header-home-en.jpg) -778px 0 no-repeat !important; height: 20px;}
+  h3#fhome.es { background: url(../img/header-home-es.jpg) -778px 0 no-repeat !important;height: 20px; }
+  
+  
+  /* . area restrita . */
+  
+  #area-restrita { display: block; width: 230px; background: #eCeCeC; margin: 30px auto 180px; padding: 10px; overflow: hidden }
+  #area-restrita label { display: block; }
+  #area-restrita input { display: block; margin-bottom: 5px; width: 220px }
+  #area-restrita input.btn { width: 61px; text-align: center; float: right; margin: 10px 7px 0 0 }
+
+  /* . Mural de obras . */
+
+#mural {
+	height:293px;
+	margin-left:-12px;
+	width:821px;
+}
+
+#mural div {
+	position: relative;
+	float:left;
+}
+
+/* You named this layer layer1_img */
+#Layer-1, #Layer-12 {
+	height:70px;
+	left:5px;
+	position:absolute;
+	top:77px;
+	width:230px;
+	z-index:1;
+}
+
+/* You named this layer layer2_img */
+#Layer-2, #Layer-13 {
+	height:68px;
+	left:-110px;
+	position:absolute;
+	top:150px;
+	width:115px;
+	z-index:2;
+}
+
+/* You named this layer layer3_img */
+#Layer-3, #Layer-14 {
+	height:140px;
+	left:-107px;
+	position:absolute;
+	top:77px;
+	width:112px;
+	z-index:3;
+}
+
+/* You named this layer layer4_img */
+#Layer-4, #Layer-15 {
+	height:70px;
+	left:-104px;
+	position:absolute;
+	top:77px;
+	width:114px;
+	z-index:4;
+}
+
+/* You named this layer layer5_img */
+#Layer-5, #Layer-16 {
+	height:139px;
+	left:-218px;
+	position:absolute;
+	top:150px;
+	width:114px;
+	z-index:5;
+}
+
+/* You named this layer layer6_img */
+#Layer-6, #Layer-17 {
+	height:142px;
+	left:-215px;
+	position:absolute;
+	top:5px;
+	width:114px;
+	z-index:6;
+}
+
+/* You named this layer layer7_img */
+#Layer-7, #Layer-18 {
+	height:68px;
+	left:470px;
+	position:absolute;
+	top:8px;
+	width:114px;
+	z-index:7;
+}
+
+/* You named this layer layer8_img */
+#Layer-8, #Layer-19 {
+	height:70px;
+	left:473px;
+	position:absolute;
+	top:-137px;
+	width:114px;
+	z-index:8;
+}
+
+/* You named this layer layer9_img */
+#Layer-9, #Layer-20 {
+	height:70px;
+	left:359px;
+	position:absolute;
+	top:-65px;
+	width:114px;
+	z-index:9;
+}
+
+/* You named this layer layer10_img */
+#Layer-10, #Layer-21 {
+	height:68px;
+	left:245px;
+	position:absolute;
+	top:8px;
+	width:114px;
+	z-index:10;
+}
+
+/* You named this layer layer11_img */
+#Layer-11, #Layer-22 {
+	height:70px;
+	left:248px;
+	position:absolute;
+	top:-65px;
+	width:112px;
+	z-index:11;
+}
+
+/* FIM - Mural de obras */
+
+/* . Área restrita . */
+
+#arquivos {
+	font-size: 12px;
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+#arquivos th {
+	font-size: 14px;
+	font-weight: normal;
+	padding: 10px 8px;
+	color: #039;
+	background: #D1D5E5
+}
+
+#arquivos td {
+	padding: 8px;
+	color: #669;
+	border: 1px solid white
+}
+
+#arquivos td:last-child {
+	border-right: none
+}
+
+#arquivos .odd {
+	background: #e8edff;
+}
+
+/* MENSAGENS DO SISTEMA */
+
+.system {
+	padding: 0 0 0 19px;
+	white-space: nowrap;
+	font-weight: bold;
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.positive {
+	color: #82a800;
+	background-image:url(../img/forms/positive.gif);
+}
+
+.negative {
+	color: #b86464;
+	background-image:url(../img/forms/negative.gif);
+}
+
+.system_messages {
+	margin: 0;
+	padding: 15px 0 0;
+
+}
+
+.system_messages li {
+	list-style:none;
+	margin: 0 0 7px;
+	padding: 6px 0 6px 38px;
+	font-size: 11px;
+	position: relative;
+	top: 0;
+	left: 0;
+	min-height: 1px;
+	list-style-position: outside;
+
+}
+
+.white {
+	background: #fefefe url(../img/forms/white_message.gif) repeat-x;
+	border: 1px solid #dbdbdb;
+
+
+}
+
+.system_title {
+	font-size: 11px;
+}
+
+.ico {
+	display: block;
+	width: 23px;
+	height: 23px;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	position: absolute;
+	left: 4px;
+	top: 1px;
+
+}
+
+.white .system_title {
+	color: #4f4f4f;
+}
+
+.white .ico {
+	background-image:url(../img/forms/white_ico.png);
+}
+
+.red {
+	background: #e2c5c5 url(../img/forms/red_message.gif) repeat-x;
+	border: 1px solid #cf9e9e;
+
+}
+
+.red .system_title {
+	color: #ae2727;
+}
+
+.red .ico {
+	background-image:url(../img/forms/red_ico.png);
+}
+
+
+
+.blue {
+	background: #c4dde3 url(../img/forms/blue_message.gif) repeat-x;
+	border: 1px solid #9cc6d0;
+
+}
+
+.blue .system_title {
+	color: #0f4b74;
+}
+
+.blue .ico {
+	background-image:url(../img/forms/blue_ico.png);
+}
+
+.green {
+	background: #c7e5c2 url(../img/forms/green_message.gif) repeat-x;
+	border: 1px solid #a2d399;
+
+}
+
+.green .system_title {
+	color: #386d19;
+}
+
+.green .ico {
+	background-image:url(../img/forms/green_ico.png);
+}
+
+
+.yellow {
+	background: #eae1b1 url(../img/forms/yellow_message.gif) repeat-x;
+	border: 1px solid #e0d182;
+
+}
+
+.yellow .system_title {
+	color: #675918;
+}
+
+.yellow .ico {
+	background-image:url(../img/forms/yellow_ico.png);
+}
