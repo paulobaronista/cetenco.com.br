@@ -18,7 +18,12 @@
 			<p>&nbsp;</p>
 			<p style="margin-top: 50px">Execu&ccedil;&atilde;o de Obras Rodovi&aacute;rias, Ferrovi&aacute;rias, Obras de Artes Especiais e de Edifica&ccedil;&otilde;es</p>
 			<p style="font-size: 20px; font-weight: 800">Política de Gestão Integrada</p>
-			<p>"N&oacute;s, da CETENCO ENGENHARIA S.A., com o apoio de nossos colaboradores e da tecnologia dispon&iacute;vel, nos comprometemos, na execu&ccedil;&atilde;o das obras, a atender aos requisitos legais e outros aplic&aacute;veis, buscando a melhoria cont&iacute;nua de nossos processos, produtos e servi&ccedil;os, visando &agrave; satisfa&ccedil;&atilde;o de nossos clientes e minimizando os riscos ambientais, de sa&uacute;de e seguran&ccedil;a ocupacional".</p>
+			<p>"Nós, da CETENCO ENGENHARIA S.A., com o apoio de nossos colaboradores e da tecnologia disponível, nos 
+			comprometemos, na execução das obras, a atender aos requisitos legais e outros aplicáveis, buscando a
+			 melhoria contínua de nossos processos, produtos e serviços, proporcionando condições de trabalho seguras e 
+			 saudáveis, realizando a consulta e promovendo a participação dos trabalhadores, protegendo o meio ambiente, 
+			 visando à satisfação de nossos clientes, eliminando perigos e minimizando os riscos ambientais, de saúde e 
+			 segurança ocupacional".</p>
 			<p style="text-align:right">A Diretoria</p>
 		</div>					
 
@@ -29,12 +34,12 @@
 			<tr>
 				<td style="padding-left:60px"><a href="http://www.cetenco.com.br/includes/img/certificacoes/iso_9001.jpg" class="pop" rel="thumbs"><img src="http://www.cetenco.com.br/includes/img/certificacoes/iso_9001_thumb.jpg" style="border:1px solid #666" /></a></td>
 				<td style="padding-left:60px"><a href="http://www.cetenco.com.br/includes/img/certificacoes/iso_14001.jpg" class="pop" rel="thumbs"><img src="http://www.cetenco.com.br/includes/img/certificacoes/iso_14001_thumb.jpg" style="border:1px solid #666" /></a></td>
-				<td style="padding-left:60px"><a href="http://www.cetenco.com.br/includes/img/certificacoes/ohsas_18001.jpg" class="pop" rel="thumbs"><img src="http://www.cetenco.com.br/includes/img/certificacoes/ohsas_18001_thumb.jpg" style="border:1px solid #666" /></a></td>
+				<td style="padding-left:60px"><a href="http://www.cetenco.com.br/includes/img/certificacoes/iso_45001.jpg" class="pop" rel="thumbs"><img src="http://www.cetenco.com.br/includes/img/certificacoes/iso_45001_thumb.jpg" style="border:1px solid #666" /></a></td>
 			</tr>
 			<tr>
 				<td style="padding-left:60px">ISO 9001</td>
 				<td style="padding-left:60px">ISO 14001</td>
-				<td style="padding-left:60px">OHSAS 18001</td>
+				<td style="padding-left:60px">ISO 45001</td>
 			</tr>
 <!--
  			<tr>
